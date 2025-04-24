@@ -1,8 +1,6 @@
-git config --global user.name "Li"
-
-
-git config --global user.email "1157351631@qq.com"
-
+git config --global user.name ""
+git config --global user.email ""
+设置姓名和邮箱
 
 git --version
 查看Git当前版本
@@ -22,7 +20,7 @@ git add .
 git commit -m "Note"
 提交暂存区文件到本地库并备注Note
 
-一般每次都要用到git add和git commit -m ""
+一般每次提交都要用到git add和git commit -m ""
 
 
 git status
@@ -32,10 +30,41 @@ git log
 查看提交记录
 
 git checkout -b dev
-创建名为dev的分支
+创建名为dev的分支并切换
 
+git checkout master
+切换到master分支
 
-git
+git diff master dev
+查看master分支和dev分支的内容差异
 
+git merge dev
+合并dev分支到当前分支
+
+git branch
+查看所有分支
+
+git branch -d dev
+删除dev分支
+
+git remote add origin https://github.com/Code-LSQ/GitNote.git
+将本地仓库关联到GitHub仓库
+
+git push -u origin master
+把本地仓库的master分支所有内容推送到GitHub仓库
 
 git tag
+查看所有标签
+
+git tag V1.0
+新建标签并命名为V1.0
+
+git tag -d V1.0
+删除V1.0标签
+
+git push --tags
+将所有标签上传到远程仓库
+
+git pull
+
+
