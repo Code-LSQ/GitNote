@@ -1,0 +1,32 @@
+git config --global user.name "Li"
+
+
+git config --global user.email ""
+
+
+git init
+在当前目录下创建Git版本库
+
+git --version
+查看Git当前版本
+
+git update-git-for-windows
+更新Windows上的Git
+
+git add
+
+
+git commit
+
+
+git log
+查看提交记录
+
+git checkout -b dev
+创建名为dev的分支
+
+
+git
+
+
+git tag
